@@ -1,4 +1,5 @@
-package Alletec;
+//4. Write program to Merging of two sorted lists
+
 
 public class Merge2List {
 
@@ -60,9 +61,7 @@ public class Merge2List {
         j.nextNode = k;
         k.nextNode = l;
         l.nextNode = m;
-
         Node z = mergeTwoLists(a, j);
-
         Node temp = z;
         System.out.print(temp.data);
         while (temp.nextNode != null) {
